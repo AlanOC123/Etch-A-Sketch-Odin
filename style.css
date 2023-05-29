@@ -1,0 +1,45 @@
+html {
+    font-size: 0.625rem;
+}
+
+body {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-container button {
+    width: 30rem;
+    height: 5rem;
+    border-radius: 2rem;
+    box-shadow: 0.5rem 0.5rem 2rem black;
+}
+
+.container {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 75vh;
+    width: 75vw;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 1rem auto;
+}
+
+.grid-row {
+    flex: 1;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.grid-box {
+    flex: 1;
+    border: 0.2rem solid rgb(0, 0, 0, 0.1);
+}
